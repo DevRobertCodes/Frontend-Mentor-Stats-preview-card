@@ -18,7 +18,6 @@ body{
 .card {
   max-width: 960px;
   margin: 4rem auto;
-  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   background-color: #1b1938;
@@ -121,6 +120,7 @@ p {
 @media (min-width: 768px) {
   .card{
     position: relative;
+    border-radius: 12px;
   }
   .card-content {
     flex-direction: row-reverse;
